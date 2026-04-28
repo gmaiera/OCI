@@ -30,13 +30,14 @@ Codex/
 | Skill | Local status | Public status | Shareability | Recommendation |
 |---|---|---|---|---|
 | `cloud` | Valid | Published in `Codex/skills/cloud` | High | Keep public. Strong first shared skill for OCI/cloud work. |
-| `deepresearch` | Valid | Not public | Medium | Sanitize Gustavo/Oracle-specific framing, then publish as a daily research accelerator. |
-| `vibe-work` | Valid | Not public | Medium | Generalize from Gustavo-specific facilitation to team/personal work sessions, then publish. |
+| `deepresearch` | Valid | Published in `Codex/skills/deepresearch` | High | Public sanitized version implemented. |
+| `pipeline` | New public skill | Published in `Codex/skills/pipeline` | High | Public skill implemented for daily work organization. |
+| `vibe-work` | Valid | Not public | Medium | Do not publish in this batch. Consider later if it is generalized. |
 | `ludicrous-mode` | Valid, one warning | Not public | Medium | Fix missing reference link, generalize approval language, then publish as an advanced execution mode. |
-| `idea-export-v2` | Valid | Not public | Medium/Low | Strong concept, but contains local repo/path and private publishing assumptions. Publish only after a generic version exists. |
-| `idea-export` | Valid | Not public | Medium/Low | Older version overlaps with V2. Prefer publishing a cleaned V2 instead of both. |
-| `inbox` | Valid | Not public | Low | Keep private. It contains personal email, Oracle/Mesttra/Personal/Affairs routing, and private operating assumptions. |
-| `now` | Valid | Not public | Low | Keep private. It depends on Gustavo-specific knowledge sources, lanes, and local priorities. |
+| `idea-export-v2` | Valid | Not public | Low | Do not publish. User chose V1 `idea-export` without V2. |
+| `idea-export` | Valid | Published in `Codex/skills/idea-export` | High | Public sanitized V1 implemented. |
+| `inbox` | Valid | Not public | Low | Keep private. It contains personal inbox routing, named work/life lanes, and private operating assumptions. |
+| `now` | Valid | Not public | Low | Keep private. It depends on user-specific knowledge sources, lanes, and local priorities. |
 
 ## Validation Findings
 
@@ -54,13 +55,13 @@ That should be fixed before sharing `ludicrous-mode`.
 
 The following skills contain user-specific or organization-specific references:
 
-- `inbox`: personal inbox alias, Oracle, Mesttra, Personal, Affairs, WhatsApp/Slack routing, and private triage assumptions.
-- `now`: Gustavo-specific executive-function workflow, Oracle/Mesttra/PF lanes, local knowledgebase/search assumptions.
-- `idea-export`: Gustavo-specific publishing flow and local repo paths.
-- `idea-export-v2`: Gustavo/Oracle framing and local repo paths.
-- `vibe-work`: Gustavo-specific facilitation language.
-- `deepresearch`: Gustavo/Oracle-specific opportunity framing.
-- `ludicrous-mode`: Gustavo-specific approval language.
+- `inbox`: personal inbox alias, named work/life lanes, channel routing, and private triage assumptions.
+- `now`: user-specific executive-function workflow, private work/life lanes, local knowledgebase/search assumptions.
+- `idea-export`: user-specific publishing flow and local repo paths.
+- `idea-export-v2`: user/company-specific framing and local repo paths.
+- `vibe-work`: user-specific facilitation language.
+- `deepresearch`: user/company-specific opportunity framing.
+- `ludicrous-mode`: user-specific approval language.
 
 These are not necessarily problems for local use. They are reasons to sanitize before publishing.
 
@@ -73,39 +74,12 @@ Organize shared skills by daily-work outcomes:
 | Cloud & Architecture | Better technical and commercial cloud decisions | `cloud` |
 | Research & Intelligence | Better briefs, market scans, evidence, and citations | `deepresearch` |
 | Focus & Execution | Better shipping, autonomy, and completion | `vibe-work`, `ludicrous-mode` |
-| Communication & Alignment | Better stakeholder pages, proposals, and calls to action | sanitized `idea-export-v2` |
+| Communication & Alignment | Better stakeholder pages, proposals, and calls to action | `idea-export` |
 | Personal Operating Systems | Inbox, prioritization, routines, and command centers | keep private unless rewritten generically |
 
 ## Recommended Next Skills To Publish
 
-### 1. `deepresearch`
-
-Why:
-
-- Useful to almost everyone doing technology work.
-- Easy to sanitize.
-- High daily value for briefs, comparisons, technical decisions, and opportunity scans.
-
-Needed before publishing:
-
-- Remove Gustavo/Oracle-specific framing.
-- Replace `latest 2025-2026` with current-date-aware wording.
-- Keep the source-quality and citation discipline.
-
-### 2. `vibe-work`
-
-Why:
-
-- Useful for daily productivity and collaborative work.
-- Differentiated: it helps people ship one thing instead of just chatting.
-
-Needed before publishing:
-
-- Replace Gustavo-specific language with user/team language.
-- Keep the “one session, one challenge, one shipped thing” rule.
-- Add a short public README-style usage note in `Codex/skills/README.md`.
-
-### 3. `ludicrous-mode`
+### 1. `ludicrous-mode`
 
 Why:
 
@@ -118,18 +92,18 @@ Needed before publishing:
 - Generalize approval language.
 - Keep strict safety boundaries.
 
-### 4. Sanitized `idea-export-v2`
+### 2. `vibe-work`
 
 Why:
 
-- Strong for daily stakeholder work.
-- Helps people avoid unnecessary slide decks.
+- Useful for daily productivity and collaborative work.
+- Differentiated: it helps people ship one thing instead of just chatting.
 
 Needed before publishing:
 
-- Remove local paths and private repo guidance.
-- Replace Gustavo/Oracle language with generic stakeholder language.
-- Keep privacy, publishing, and CTA discipline.
+- Replace user-specific language with user/team language.
+- Keep the “one session, one challenge, one shipped thing” rule.
+- Add a short public README-style usage note in `Codex/skills/README.md`.
 
 ## Keep Private For Now
 
@@ -139,7 +113,7 @@ Keep local because it contains a personal routing system and named lanes. A publ
 
 ### `now`
 
-Keep local because it depends on Gustavo-specific context. A public version could be created later as `priority-briefing`, but it should not assume Oracle, Mesttra, PF, or local notes.
+Keep local because it depends on user-specific context. A public version could be created later as `priority-briefing`, but it should not assume private work/life lanes or local notes.
 
 ## Recommended Public README Organization
 
@@ -153,11 +127,10 @@ Research & Intelligence
 - deepresearch
 
 Focus & Execution
-- vibe-work
-- ludicrous-mode
+- pipeline
 
 Communication & Alignment
-- idea-export-v2
+- idea-export
 ```
 
 Each listed skill should include:
@@ -181,12 +154,11 @@ Before any skill enters `Codex/skills`:
 
 ## Current Decision
 
-Keep `cloud` public.
+Keep these skills public:
 
-Prepare sanitized public versions next in this order:
+1. `cloud`
+2. `deepresearch`
+3. `pipeline`
+4. `idea-export`
 
-1. `deepresearch`
-2. `vibe-work`
-3. `ludicrous-mode`
-4. `idea-export-v2`
-
+Do not publish `idea-export-v2` in this repository. Keep it private unless a future decision explicitly revives it.

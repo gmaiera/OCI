@@ -6,4 +6,18 @@ skills:
   shared_path: skills/cloud
   github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/cloud
 
+- name: deepresearch
+  status: github-ready
+  shared_path: skills/deepresearch
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/deepresearch
+
+- name: pipeline
+  status: github-ready
+  shared_path: skills/pipeline
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/pipeline
+
+- name: idea-export
+  status: github-ready
+  shared_path: skills/idea-export
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/idea-export
 

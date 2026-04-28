@@ -1,0 +1,5 @@
+interface:
+  display_name: "Pipeline"
+  short_description: "Organize work into stages and next actions."
+  default_prompt: "Use $pipeline to turn this messy set of tasks, ideas, requests, or opportunities into a prioritized execution pipeline."
+

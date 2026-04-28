@@ -1,6 +1,6 @@
 # Shared Codex Skills
 
-This folder contains Codex skills that Gustavo has chosen to share.
+This folder contains Codex skills that are ready to share.
 
 Each skill is a self-contained folder. To use one, copy the skill folder into your local Codex skills directory:
 
@@ -17,6 +17,24 @@ Then start a new Codex thread so the skill metadata can be loaded.
 | Skill | What it is for |
 |---|---|
 | [`cloud`](cloud) | Cloud architecture, migration planning, FinOps, Well-Architected reviews, OCI/AWS/Azure/GCP comparisons, and GitHub-ready cloud deliverables. |
+
+### Research & Intelligence
+
+| Skill | What it is for |
+|---|---|
+| [`deepresearch`](deepresearch) | Rigorous, current, source-backed research briefs for companies, technologies, people, markets, and technical topics. |
+
+### Focus & Execution
+
+| Skill | What it is for |
+|---|---|
+| [`pipeline`](pipeline) | Turn messy tasks, ideas, requests, opportunities, or projects into a staged execution pipeline with priorities and next actions. |
+
+### Communication & Alignment
+
+| Skill | What it is for |
+|---|---|
+| [`idea-export`](idea-export) | Turn an idea into a shareable stakeholder webpage with a clear message, proof, and call to action. |
 
 Skills are added here only after they pass the local workflow in `../skills-lab` and a privacy review.
 

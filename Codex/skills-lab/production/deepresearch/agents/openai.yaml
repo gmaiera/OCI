@@ -1,0 +1,5 @@
+interface:
+  display_name: "DeepResearch"
+  short_description: "Run rigorous current research briefs."
+  default_prompt: "Use $deepresearch to research this topic exhaustively and produce a concise, cited strategic brief."
+
