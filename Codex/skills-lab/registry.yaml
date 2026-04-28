@@ -26,16 +26,6 @@ skills:
   shared_path: skills/vibe-work
   github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/vibe-work
 
-- name: idea-export-website
-  status: github-ready
-  shared_path: skills/idea-export-website
-  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/idea-export-website
-
-- name: idea-export-ppt
-  status: github-ready
-  shared_path: skills/idea-export-ppt
-  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/idea-export-ppt
-
 - name: oracle-design-system
   status: github-ready
   shared_path: skills/oracle-design-system

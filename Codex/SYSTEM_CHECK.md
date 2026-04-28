@@ -4,17 +4,23 @@ Date: 2026-04-28
 
 ## Current Goal
 
-Make `https://github.com/gmaiera/OCI` easy for people to browse so they can open `Codex/skills`, find useful daily-work skills, and copy the skill folders into their own Codex setup.
+Keep `https://github.com/gmaiera/OCI` easy to browse while sharing only the Codex skills that are ready for public use. Internal-only modes and personal operating workflows should stay outside the public repo until they are deliberately rewritten, reviewed, and approved for sharing.
 
-## Public Structure
+## Actual Public Structure
 
 ```text
 Codex/
 ├── README.md
 ├── SYSTEM_CHECK.md
+├── WORKFLOW.md
 ├── skills/
 │   ├── README.md
-│   └── cloud/
+│   ├── cloud/
+│   ├── deepresearch/
+│   ├── now/
+│   ├── oracle-design-system/
+│   ├── pipeline/
+│   └── vibe-work/
 └── skills-lab/
     ├── README.md
     ├── registry.yaml
@@ -25,91 +31,59 @@ Codex/
     └── scripts/
 ```
 
-## Skill Inventory
+## Public Skill Inventory
 
-| Skill | Local status | Public status | Shareability | Recommendation |
-|---|---|---|---|---|
-| `cloud` | Valid | Published in `Codex/skills/cloud` | High | Keep public. Strong first shared skill for OCI/cloud work. |
-| `deepresearch` | Valid | Published in `Codex/skills/deepresearch` | High | Public sanitized version implemented. |
-| `pipeline` | New public skill | Published in `Codex/skills/pipeline` | High | Public skill implemented for daily work organization. |
-| `vibe-work` | Valid | Published in `Codex/skills/vibe-work` | High | Public sanitized version implemented. |
-| `ludicrous-mode` | Valid, one warning | Not public | Medium | Fix missing reference link, generalize approval language, then publish as an advanced execution mode. |
-| `idea-export-v2` | Valid | Not public | Low | Do not publish. Superseded publicly by explicit website and PPT variants. |
-| `idea-export-website` | Valid | Published in `Codex/skills/idea-export-website` | High | Website output variant implemented. |
-| `idea-export-ppt` | Valid | Published in `Codex/skills/idea-export-ppt` | High | PowerPoint output variant implemented. |
-| `oracle-design-system` | Valid | Published in `Codex/skills/oracle-design-system` | High | Oracle Redwood-inspired design consistency skill implemented. |
-| `idea-export` | Deprecated | Not public | Low | Replaced by explicit website and PPT variants. |
-| `inbox` | Valid | Not public | Low | Keep private. It contains personal inbox routing, named work/life lanes, and private operating assumptions. |
-| `now` | Valid | Published in `Codex/skills/now` | High | Public sanitized version implemented. Keep private local variant separate. |
+| Skill | Public status | Shareability | Decision |
+|---|---|---|---|
+| `cloud` | Published in `Codex/skills/cloud` | High | Keep public. Strong shared skill for OCI, multi-cloud architecture, migration, and FinOps work. |
+| `deepresearch` | Published in `Codex/skills/deepresearch` | High | Keep public. Useful for rigorous, source-backed research briefs. |
+| `pipeline` | Published in `Codex/skills/pipeline` | High | Keep public. Useful for daily work organization and flow review. |
+| `now` | Published in `Codex/skills/now` | High | Keep public sanitized version. Keep private local variants separate. |
+| `vibe-work` | Published in `Codex/skills/vibe-work` | High | Keep public sanitized version. Useful for focused work sessions. |
+| `oracle-design-system` | Published in `Codex/skills/oracle-design-system` | High | Keep public. Useful for Oracle Redwood-inspired design consistency. |
+
+## Internal Or Removed Work
+
+| Area | Public decision | Reason |
+|---|---|---|
+| Advanced execution modes | Keep internal only. Do not list as public candidates. | These should be worked privately before any future public decision. |
+| Communication packaging experiments | Removed from public repo. | These flows are not part of the current public sharing plan. |
+| Personal inbox workflows | Keep internal only. | These depend on private routing, named work/life lanes, and triage assumptions. |
 
 ## Validation Findings
 
-All current local skills passed structural validation.
-
-One warning was found:
+Current public skills should be validated before each release with:
 
 ```text
-ludicrous-mode: references/execution-log-template.md is not mentioned from SKILL.md
+python3 skills-lab/scripts/validate_skill.py skills/<skill-name>
 ```
 
-That should be fixed before sharing `ludicrous-mode`.
+There are no validation items for internal-only modes or removed communication packaging experiments because they are no longer part of the public repo.
 
 ## Privacy Findings
 
-The following skills contain user-specific or organization-specific references:
+Public skills must not contain private emails, tokens, local paths, internal-only context, or personal operating assumptions.
 
-- `inbox`: personal inbox alias, named work/life lanes, channel routing, and private triage assumptions.
-- `now`: user-specific executive-function workflow, private work/life lanes, local knowledgebase/search assumptions.
-- `idea-export`: user-specific publishing flow and local repo paths.
-- `idea-export-v2`: user/company-specific framing and local repo paths.
-- `vibe-work`: user-specific facilitation language.
-- `deepresearch`: user/company-specific opportunity framing.
-- `ludicrous-mode`: user-specific approval language.
+Current privacy posture:
 
-These are not necessarily problems for local use. They are reasons to sanitize before publishing.
+- `cloud`, `deepresearch`, `pipeline`, `vibe-work`, and `oracle-design-system` are intended as generic public skills.
+- `now` is public only in sanitized form. Any local version with private knowledgebase assumptions should remain internal.
+- Advanced execution modes, personal inbox workflows, and retired communication packaging experiments should stay out of the public repo.
 
 ## Recommended Public Skill Categories
 
 Organize shared skills by daily-work outcomes:
 
-| Category | Purpose | Candidate skills |
+| Category | Purpose | Public skills |
 |---|---|---|
 | Cloud & Architecture | Better technical and commercial cloud decisions | `cloud` |
 | Research & Intelligence | Better briefs, market scans, evidence, and citations | `deepresearch` |
-| Focus & Execution | Better shipping, autonomy, and completion | `vibe-work`, `ludicrous-mode` |
-| Communication & Alignment | Better stakeholder pages, decks, proposals, design consistency, and calls to action | `idea-export-website`, `idea-export-ppt`, `oracle-design-system` |
-| Personal Operating Systems | Inbox, prioritization, routines, and command centers | keep private unless rewritten generically |
-
-## Recommended Next Skills To Publish
-
-### 1. `ludicrous-mode`
-
-Why:
-
-- Powerful for advanced users who want high-autonomy execution.
-- Works well as an explicit activation mode.
-
-Needed before publishing:
-
-- Link the execution log template from `SKILL.md`.
-- Generalize approval language.
-- Keep strict safety boundaries.
-
-No additional daily-work skills are queued for publishing in this batch.
-
-## Keep Private For Now
-
-### `inbox`
-
-Keep local because it contains a personal routing system and named lanes. A public version could be created later as `inbox-operator`, but it should be generic and configurable.
-
-### `now`
-
-Keep local because it depends on user-specific context. A public version could be created later as `priority-briefing`, but it should not assume private work/life lanes or local notes.
+| Focus & Execution | Better prioritization, flow, shipping, and completion | `now`, `pipeline`, `vibe-work` |
+| Communication & Alignment | Better design consistency for shared artifacts | `oracle-design-system` |
 
 ## Recommended Public README Organization
 
-The public `Codex/skills/README.md` should eventually show:
+The public `Codex/skills/README.md` should show only currently published public skills:
 
 ```text
 Cloud & Architecture
@@ -119,13 +93,11 @@ Research & Intelligence
 - deepresearch
 
 Focus & Execution
-- pipeline
 - now
+- pipeline
 - vibe-work
 
 Communication & Alignment
-- idea-export-website
-- idea-export-ppt
 - oracle-design-system
 ```
 
@@ -157,8 +129,6 @@ Keep these skills public:
 3. `pipeline`
 4. `now`
 5. `vibe-work`
-6. `idea-export-website`
-7. `idea-export-ppt`
-8. `oracle-design-system`
+6. `oracle-design-system`
 
-Do not publish `idea-export-v2` or the old ambiguous `idea-export` in this repository. Use `idea-export-website` or `idea-export-ppt` so the intended output is clear from the skill name.
+Keep internal-only modes and personal workflows out of this public inventory unless a future review explicitly approves a generic public version.

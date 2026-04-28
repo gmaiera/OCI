@@ -1,8 +1,0 @@
-interface:
-  display_name: "Idea Export Website"
-  short_description: "Turn ideas into shareable CTA webpages."
-  default_prompt: "Use $idea-export-website to turn this idea, target person, or profile URL into a shareable webpage with a clear call to action."
-
-policy:
-  allow_implicit_invocation: true
-

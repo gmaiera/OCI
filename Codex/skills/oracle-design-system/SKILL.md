@@ -141,8 +141,6 @@ Before finalizing, check:
 
 Use with:
 
-- `idea-export-website` when an idea needs an Oracle-aligned webpage.
-- `idea-export-ppt` when an idea needs an Oracle-aligned deck.
 - `cloud` when the artifact is an OCI/cloud architecture or cost decision.
 - `pipeline`, `now`, or `vibe-work` when the design work is part of a broader operating workflow.
 - `deepresearch` when design claims, Oracle guidance, or benchmark references need current sources.

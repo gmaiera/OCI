@@ -12,10 +12,10 @@ Expected result:
 The answer reviews hierarchy, density, components, accessibility, tone, CTA clarity, and reusable Oracle-aligned patterns.
 ```
 
-## Website Prompt
+## Stakeholder Page Prompt
 
 ```text
-Use oracle-design-system with idea-export-website to create an Oracle-aligned stakeholder page.
+Use oracle-design-system to create an Oracle-aligned stakeholder page.
 ```
 
 Expected result:
@@ -24,10 +24,10 @@ Expected result:
 The answer combines webpage storytelling with Oracle-aligned structure, restrained design, and enterprise CTAs.
 ```
 
-## PPT Prompt
+## Executive Deck Prompt
 
 ```text
-Use oracle-design-system with idea-export-ppt to create an executive deck.
+Use oracle-design-system to create an executive deck.
 ```
 
 Expected result:
@@ -47,4 +47,3 @@ Expected behavior:
 ```text
 Do not force Oracle Design System unless the user asks for Oracle, Redwood, enterprise, or Oracle-aligned design.
 ```
-

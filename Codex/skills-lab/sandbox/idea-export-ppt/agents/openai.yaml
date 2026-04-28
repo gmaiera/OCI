@@ -1,8 +1,0 @@
-interface:
-  display_name: "Idea Export PPT"
-  short_description: "Turn ideas into stakeholder PowerPoint decks."
-  default_prompt: "Use $idea-export-ppt to turn this idea, target person, or profile URL into a concise PowerPoint deck with a clear call to action."
-
-policy:
-  allow_implicit_invocation: true
-
