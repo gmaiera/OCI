@@ -28,7 +28,9 @@ Then start a new Codex thread so the skill metadata can be loaded.
 
 | Skill | What it is for |
 |---|---|
+| [`now`](now) | Decide what matters right now from visible tasks, reminders, notes, projects, and blockers. |
 | [`pipeline`](pipeline) | Turn messy tasks, ideas, requests, opportunities, or projects into a staged execution pipeline with priorities and next actions. |
+| [`vibe-work`](vibe-work) | Run a focused Ship One Thing Only session that turns one challenge into a shipped artifact or action. |
 
 ### Communication & Alignment
 

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vibe Work"
+  short_description: "Facilitate focused sessions that ship one thing."
+  default_prompt: "Use $vibe-work to run a Ship One Thing Only session with me and any collaborators present."
+
+policy:
+  allow_implicit_invocation: true
+

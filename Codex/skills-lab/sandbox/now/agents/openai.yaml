@@ -1,0 +1,5 @@
+interface:
+  display_name: "NOW"
+  short_description: "Find what matters right now."
+  default_prompt: "Use $now to identify the most important next action from visible tasks, reminders, notes, and projects."
+

@@ -16,8 +16,17 @@ skills:
   shared_path: skills/pipeline
   github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/pipeline
 
+- name: now
+  status: github-ready
+  shared_path: skills/now
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/now
+
+- name: vibe-work
+  status: github-ready
+  shared_path: skills/vibe-work
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/vibe-work
+
 - name: idea-export
   status: github-ready
   shared_path: skills/idea-export
   github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/idea-export
-

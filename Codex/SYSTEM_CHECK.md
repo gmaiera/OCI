@@ -32,12 +32,12 @@ Codex/
 | `cloud` | Valid | Published in `Codex/skills/cloud` | High | Keep public. Strong first shared skill for OCI/cloud work. |
 | `deepresearch` | Valid | Published in `Codex/skills/deepresearch` | High | Public sanitized version implemented. |
 | `pipeline` | New public skill | Published in `Codex/skills/pipeline` | High | Public skill implemented for daily work organization. |
-| `vibe-work` | Valid | Not public | Medium | Do not publish in this batch. Consider later if it is generalized. |
+| `vibe-work` | Valid | Published in `Codex/skills/vibe-work` | High | Public sanitized version implemented. |
 | `ludicrous-mode` | Valid, one warning | Not public | Medium | Fix missing reference link, generalize approval language, then publish as an advanced execution mode. |
 | `idea-export-v2` | Valid | Not public | Low | Do not publish. User chose V1 `idea-export` without V2. |
 | `idea-export` | Valid | Published in `Codex/skills/idea-export` | High | Public sanitized V1 implemented. |
 | `inbox` | Valid | Not public | Low | Keep private. It contains personal inbox routing, named work/life lanes, and private operating assumptions. |
-| `now` | Valid | Not public | Low | Keep private. It depends on user-specific knowledge sources, lanes, and local priorities. |
+| `now` | Valid | Published in `Codex/skills/now` | High | Public sanitized version implemented. Keep private local variant separate. |
 
 ## Validation Findings
 
@@ -92,18 +92,7 @@ Needed before publishing:
 - Generalize approval language.
 - Keep strict safety boundaries.
 
-### 2. `vibe-work`
-
-Why:
-
-- Useful for daily productivity and collaborative work.
-- Differentiated: it helps people ship one thing instead of just chatting.
-
-Needed before publishing:
-
-- Replace user-specific language with user/team language.
-- Keep the “one session, one challenge, one shipped thing” rule.
-- Add a short public README-style usage note in `Codex/skills/README.md`.
+No additional daily-work skills are queued for publishing in this batch.
 
 ## Keep Private For Now
 
@@ -128,6 +117,8 @@ Research & Intelligence
 
 Focus & Execution
 - pipeline
+- now
+- vibe-work
 
 Communication & Alignment
 - idea-export
@@ -159,6 +150,8 @@ Keep these skills public:
 1. `cloud`
 2. `deepresearch`
 3. `pipeline`
-4. `idea-export`
+4. `now`
+5. `vibe-work`
+6. `idea-export`
 
 Do not publish `idea-export-v2` in this repository. Keep it private unless a future decision explicitly revives it.
