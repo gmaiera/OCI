@@ -1,6 +1,8 @@
 # Codex
 
-This folder is the local working area for building, testing, promoting, and sharing Codex skills.
+Welcome to the Codex skills lab.
+
+This folder is where we build, test, polish, and share small AI work rituals that help people have better days: clearer focus, smoother collaboration, sharper research, stronger artifacts, and less friction between "we should do this" and "it is shipped."
 
 The intended GitHub location is:
 
@@ -10,7 +12,7 @@ https://github.com/gmaiera/OCI/tree/main/Codex
 
 ## Operating Model
 
-Skills move through four stages:
+Skills move through a simple path from experiment to shared tool:
 
 ```text
 skills-lab/sandbox
@@ -21,7 +23,7 @@ skills-lab/sandbox
 
 - `skills-lab/sandbox`: private experiments that can be installed locally for hands-on testing.
 - `skills-lab/candidates`: skills that passed basic local testing and are ready for final review.
-- `skills-lab/production`: skills that are approved for Gustavo's local Codex environment.
+- `skills-lab/production`: skills that are approved for local Codex use.
 - `skills`: public/shareable skill packages prepared for GitHub.
 
 The local runtime install location is:
@@ -34,7 +36,7 @@ That folder is what Codex actually loads. The lab is where skills are designed, 
 
 ## Public Sharing Philosophy
 
-The public `skills/` folder is for skills that help people work better every day:
+The public `skills/` folder is for skills that help people work better every day, with a little more flow and a lot less fog:
 
 - Make better decisions.
 - Do better research.
@@ -44,11 +46,15 @@ The public `skills/` folder is for skills that help people work better every day
 
 Personal operating-system skills should stay private unless they are rewritten generically and pass a privacy review.
 
-See `SYSTEM_CHECK.md` for the current inventory, shareability assessment, and recommended next skills to publish.
+Personal operating-system skills should stay private unless they are rewritten generically and pass a privacy review. The vibe is generous, but the privacy bar stays high.
+
+See `SYSTEM_CHECK.md` for the current inventory and shareability assessment.
 
 See `WORKFLOW.md` for how these skills combine into an organization-wide performance improvement workflow.
 
 ## Normal Workflow
+
+Use this loop when creating or improving a skill:
 
 1. Create or edit a skill in `skills-lab/sandbox/<skill-name>`.
 2. Validate the skill:
@@ -63,7 +69,7 @@ See `WORKFLOW.md` for how these skills combine into an organization-wide perform
    python3 skills-lab/scripts/install_local.py skills-lab/sandbox/<skill-name>
    ```
 
-4. Run the skill from Codex on this computer and capture eval notes in `skills-lab/evals/<skill-name>/prompts.md`.
+4. Run the skill from Codex and capture eval notes in `skills-lab/evals/<skill-name>/prompts.md`.
 5. Nominate the reviewed skill as a candidate:
 
    ```text
@@ -86,7 +92,7 @@ See `WORKFLOW.md` for how these skills combine into an organization-wide perform
 
 ## Production Rule
 
-Do not edit `~/.codex/skills/<skill-name>` directly. Make changes in `skills-lab/sandbox`, test them locally, then promote again.
+Do not edit `~/.codex/skills/<skill-name>` directly. Keep the groove clean: make changes in `skills-lab/sandbox`, test them locally, then promote again.
 
 ## GitHub Sharing Rule
 

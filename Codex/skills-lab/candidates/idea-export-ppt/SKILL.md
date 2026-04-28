@@ -11,6 +11,8 @@ Turn an idea into a concise, persuasive PowerPoint deck with a clear audience, m
 
 The deck may be general-purpose or person-specific. For person-specific decks, use public or provided context to make the message relevant to the stakeholder's role, likely priorities, and decision path.
 
+The vibe is confident and generous: fewer slides that say more, less clutter, more decision energy.
+
 ## Workflow
 
 1. Explore the idea before building.
@@ -95,4 +97,3 @@ When done, provide:
 - A one-paragraph summary of the storyline.
 - The exact CTA or decision slide.
 - Any assumptions or unresolved questions.
-

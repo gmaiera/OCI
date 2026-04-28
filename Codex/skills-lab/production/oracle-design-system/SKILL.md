@@ -9,6 +9,8 @@ description: "Apply Oracle Redwood-inspired design guidance to enterprise webpag
 
 Help create Oracle-aligned, enterprise-ready experiences using Redwood-inspired principles: clarity, calm hierarchy, purposeful interaction, accessible structure, and business-user productivity.
 
+This skill brings the polish pass: the moment where a useful artifact starts feeling trustworthy, reusable, and easy for a team to rally around.
+
 Use this skill for:
 
 - Oracle-style webpages and landing pages.

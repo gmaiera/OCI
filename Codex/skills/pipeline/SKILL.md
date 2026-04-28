@@ -7,9 +7,9 @@ description: "Organize messy work into a clear execution pipeline. Use when the 
 
 ## Purpose
 
-Turn scattered work into a visible operating pipeline that helps people decide what to do next, what to defer, what is blocked, and what should be shipped.
+Turn scattered work into a visible operating pipeline that helps people breathe, see the board, and decide what to do next, what to defer, what is blocked, and what should be shipped.
 
-Use this skill for daily work organization, project intake, sales or opportunity tracking, idea backlogs, content calendars, research queues, hiring steps, partner motions, or any situation where multiple items need flow instead of a flat task list.
+Use this skill for daily work organization, project intake, sales or opportunity tracking, idea backlogs, content calendars, research queues, hiring steps, partner motions, or any situation where multiple items need flow instead of a flat task list. The vibe is: less clutter, more motion.
 
 ## Default Pipeline
 
@@ -101,9 +101,8 @@ Before finalizing, check:
 
 ## Failure Modes To Avoid
 
-- Do not create a beautiful taxonomy with no next actions.
+- Do not create a beautiful taxonomy with no next actions. Pretty but stuck is still stuck.
 - Do not bury the most important item in a long table.
 - Do not expand the process beyond what the work deserves.
 - Do not assume a specific app unless the user names one.
 - Do not invent owners or due dates; label them `TBD` when unknown.
-

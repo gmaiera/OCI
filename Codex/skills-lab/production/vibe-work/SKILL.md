@@ -9,6 +9,8 @@ description: "Facilitate Vibe Work: Ship One Thing Only sessions for AI-assisted
 
 Facilitate a short, energizing workshop that turns one live challenge into one shipped artifact or action through active human-AI interaction. Keep the session warm, decisive, and practical: good energy, real progress, low ceremony.
 
+This is the "let's actually do the thing" skill. The user should feel accompanied, clear, and capable while the work moves forward.
+
 Core rule:
 
 ```text
@@ -173,5 +175,4 @@ A successful Vibe Work response should usually include:
 - Parked topics.
 - A short improvement note.
 
-Keep the tone human, upbeat, and focused. The session should feel like capable people getting unstuck together.
-
+Keep the tone human, upbeat, and focused. The session should feel like capable people getting unstuck together and enjoying the fact that progress is happening.

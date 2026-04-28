@@ -1,6 +1,8 @@
 # Organization-Wide Skill Workflow
 
-This skill set is designed to improve daily performance across an organization by making work easier to see, choose, execute, explain, and standardize.
+This skill set is designed to help an organization work with more clarity, energy, and follow-through.
+
+The idea is simple: help people see the work, choose the right next move, ship one useful thing, explain it well, and make the final artifact consistent enough that others can trust it and reuse it.
 
 ## Operating Stack
 
@@ -17,11 +19,11 @@ NOW
 
 | Layer | Skill | Performance Improvement |
 |---|---|---|
-| Attention | `now` | Helps people choose what matters right now instead of reacting to noise. |
+| Attention | `now` | Helps people stop spinning and choose what matters right now. |
 | Flow | `pipeline` | Turns scattered work into visible stages, priorities, owners, blockers, and next actions. |
 | Momentum | `vibe-work` | Turns one challenge into one shipped artifact or action in a focused session. |
 | Intelligence | `deepresearch` | Converts uncertainty into source-backed analysis and options. |
-| Technical strategy | `cloud` | Improves cloud, architecture, migration, and cost decisions. |
+| Technical strategy | `cloud` | Makes cloud, architecture, migration, and cost decisions easier to explain. |
 | Communication | `idea-export-website` | Turns ideas into shareable stakeholder pages. |
 | Communication | `idea-export-ppt` | Turns ideas into concise decision decks. |
 | Design consistency | `oracle-design-system` | Makes artifacts feel enterprise-ready, Oracle-aligned, accessible, and reusable. |
@@ -37,7 +39,7 @@ NOW
 
 ## Organization-Wide Rollout Pattern
 
-Start with a small group and a small set of rituals:
+Start with a small group and a small set of rituals. Keep it light. Let people feel the momentum before adding process:
 
 - Daily: `now` for priority clarity.
 - Weekly: `pipeline` for flow review.
@@ -45,7 +47,7 @@ Start with a small group and a small set of rituals:
 - Decision moments: `deepresearch`, `cloud`, `idea-export-website`, or `idea-export-ppt`.
 - Quality bar: `oracle-design-system` before sharing important artifacts.
 
-Track improvements:
+Track improvements that people can actually feel:
 
 - Fewer unclear next steps.
 - Faster decision cycles.
@@ -53,4 +55,3 @@ Track improvements:
 - Better artifact reuse.
 - More consistent executive and stakeholder communication.
 - Less rework caused by poor structure or unclear design.
-

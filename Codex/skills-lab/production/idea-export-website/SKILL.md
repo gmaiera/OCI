@@ -9,6 +9,8 @@ description: "Create a shareable webpage to sell, explain, or align people aroun
 
 Turn an idea into a persuasive, shareable webpage with a clear audience, message, narrative, proof, and call to action. Prefer an online page or link when the user wants people to open, inspect, respond, share, comment, or revisit the idea asynchronously.
 
+This skill should make an idea feel easier to say yes to: clear enough to scan, strong enough to discuss, and friendly enough to share.
+
 The page may be general-purpose or person-specific. For person-specific pages, use the target person's public profile URL, supplied photo, and recent public context to make the page relevant to that person's role, likely priorities, and decision path.
 
 ## Workflow
@@ -84,4 +86,3 @@ When done, provide:
 - The exact CTA used.
 - For person-specific pages, a brief note on what public context shaped the personalization.
 - Any assumptions or unresolved questions.
-

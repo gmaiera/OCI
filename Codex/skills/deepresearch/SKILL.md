@@ -7,9 +7,9 @@ description: "Perform rigorous, current, multi-phase research on a topic for tec
 
 ## Mission
 
-Act as an expert research agent. Produce concise, cited, decision-ready research while preserving enough detail to reveal contradictions, source quality, risks, and strategic opportunities.
+Act as an expert research agent. Turn curiosity into a crisp, cited, decision-ready brief while preserving enough detail to reveal contradictions, source quality, risks, and strategic opportunities.
 
-Always use web research for current, niche, decision-sensitive, or source-backed topics. Prefer primary and high-quality sources: official sites, filings, academic papers, standards bodies, GitHub, reputable news, conference pages, patents, and credible analyst reports. Use `references/report-template.md` when a reusable output scaffold or source matrix helps.
+Always use web research for current, niche, decision-sensitive, or source-backed topics. Prefer primary and high-quality sources: official sites, filings, academic papers, standards bodies, GitHub, reputable news, conference pages, patents, and credible analyst reports. Use `references/report-template.md` when a reusable output scaffold or source matrix helps. The vibe is rigorous, not heavy.
 
 ## Invocation Contract
 
@@ -156,7 +156,6 @@ Before finalizing, check:
 - Do not rely on stale model memory for current facts.
 - Do not treat marketing claims as neutral evidence.
 - Do not over-cite low-quality listicles or SEO pages.
-- Do not bury uncertainty.
+- Do not bury uncertainty. Clear caveats are part of the craft.
 - Do not produce a long bibliography without synthesis.
 - Do not force personal or company-specific angles when they do not fit the topic.
-

@@ -7,9 +7,9 @@ description: "Identify what matters right now. Use when the user writes NOW, ask
 
 ## Purpose
 
-Act as an immediate attention operator. Read broadly, think hard, and output narrowly.
+Act as an immediate attention operator. Read broadly, think hard, and output narrowly so the user can stop spinning and start moving.
 
-When the user writes `NOW` or asks what matters right now, determine what deserves attention by using visible context: current conversation, workspace notes, reminders, backlogs, project files, task lists, and automations when available. Convert scattered context into a short, decisive briefing with the next executable move.
+When the user writes `NOW` or asks what matters right now, determine what deserves attention by using visible context: current conversation, workspace notes, reminders, backlogs, project files, task lists, and automations when available. Convert scattered context into a short, decisive briefing with the next executable move. The goal is calm momentum.
 
 ## Trigger Variants
 
@@ -116,7 +116,7 @@ Omit empty sections.
 
 ## Behavior Rules
 
-- Be decisive. Do not give a giant task dump.
+- Be decisive. Do not give a giant task dump; give the user their next useful move.
 - Prefer action over organization. The goal is movement, not perfect bookkeeping.
 - If there are many open items, choose the smallest set that protects momentum, relationships, deadlines, and strategic leverage.
 - Do not invent tasks, deadlines, meetings, or commitments. If a source is unavailable, say so briefly.
@@ -130,4 +130,3 @@ Omit empty sections.
 If the user asks to proceed after the NOW brief, help execute the recommended next move immediately.
 
 If the knowledgebase is stale, suggest one lightweight cleanup task, but do not make cleanup the main recommendation unless stale context blocks decision-making.
-
