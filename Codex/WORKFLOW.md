@@ -11,6 +11,7 @@ NOW
   -> Pipeline
   -> Vibe Work
   -> DeepResearch / Cloud
+  -> Export Website / Export PPTX
   -> Oracle Design System
 ```
 
@@ -23,6 +24,8 @@ NOW
 | Momentum | `vibe-work` | Turns one challenge into one shipped artifact or action in a focused session. |
 | Intelligence | `deepresearch` | Converts uncertainty into source-backed analysis and options. |
 | Technical strategy | `cloud` | Makes cloud, architecture, migration, and cost decisions easier to explain. |
+| Communication | `export-website` | Turns information into shareable stakeholder webpages. |
+| Communication | `export-pptx` | Turns information into concise PPTX decision decks. |
 | Design consistency | `oracle-design-system` | Makes artifacts feel enterprise-ready, Oracle-aligned, accessible, and reusable. |
 
 ## Example Workflow
@@ -31,7 +34,8 @@ NOW
 2. Use `pipeline` to place related work into the right stage.
 3. Use `vibe-work` to run a focused session and ship one concrete output.
 4. Use `deepresearch` or `cloud` if the work needs evidence or technical judgment.
-5. Use `oracle-design-system` to make the artifact consistent, polished, and reusable.
+5. Use `export-website` or `export-pptx` to package the information for stakeholders.
+6. Use `oracle-design-system` to make the artifact consistent, polished, and reusable.
 
 ## Organization-Wide Rollout Pattern
 
@@ -40,7 +44,7 @@ Start with a small group and a small set of rituals. Keep it light. Let people f
 - Daily: `now` for priority clarity.
 - Weekly: `pipeline` for flow review.
 - Work blocks: `vibe-work` for shipping one concrete thing.
-- Decision moments: `deepresearch` or `cloud`.
+- Decision moments: `deepresearch`, `cloud`, `export-website`, or `export-pptx`.
 - Quality bar: `oracle-design-system` before sharing important artifacts.
 
 Track improvements that people can actually feel:

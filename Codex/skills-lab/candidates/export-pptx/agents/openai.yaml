@@ -1,0 +1,8 @@
+interface:
+  display_name: "Export PPTX"
+  short_description: "Turn information into stakeholder PPTX decks."
+  default_prompt: "Use $export-pptx to turn this information, proposal, target person, or profile URL into a concise PPTX deck with a clear call to action."
+
+policy:
+  allow_implicit_invocation: true
+

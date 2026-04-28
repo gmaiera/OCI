@@ -1,0 +1,8 @@
+interface:
+  display_name: "Export Website"
+  short_description: "Turn information into shareable CTA webpages."
+  default_prompt: "Use $export-website to turn this information, proposal, target person, or profile URL into a shareable webpage with a clear call to action."
+
+policy:
+  allow_implicit_invocation: true
+

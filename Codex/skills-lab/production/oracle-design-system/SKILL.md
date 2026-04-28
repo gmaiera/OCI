@@ -141,6 +141,8 @@ Before finalizing, check:
 
 Use with:
 
+- `export-website` when information needs an Oracle-aligned webpage.
+- `export-pptx` when information needs an Oracle-aligned deck.
 - `cloud` when the artifact is an OCI/cloud architecture or cost decision.
 - `pipeline`, `now`, or `vibe-work` when the design work is part of a broader operating workflow.
 - `deepresearch` when design claims, Oracle guidance, or benchmark references need current sources.

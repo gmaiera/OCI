@@ -38,6 +38,8 @@ Then start a new Codex thread so the skill metadata can be loaded. Small setup, 
 
 | Skill | What it is for |
 |---|---|
+| [`export-website`](export-website) | Turn information, proposals, or ideas into a shareable stakeholder webpage with message, proof, and a clear CTA. |
+| [`export-pptx`](export-pptx) | Turn information, proposals, or ideas into a concise PPTX deck with storyline, proof, and a decision slide. |
 | [`oracle-design-system`](oracle-design-system) | Give webpages, apps, dashboards, decks, and artifacts an Oracle Redwood-inspired enterprise polish. |
 
 Skills land here only after they pass the local workflow in `../skills-lab` and a privacy review.
@@ -60,7 +62,7 @@ Personal inbox, priority, and life-operating-system skills should stay private u
 Use the skills as a performance stack:
 
 ```text
-now -> pipeline -> vibe-work -> deepresearch/cloud -> oracle-design-system
+now -> pipeline -> vibe-work -> deepresearch/cloud -> export-website/export-pptx -> oracle-design-system
 ```
 
-That sequence helps a team decide what matters, organize the work, ship one artifact, support it with evidence or technical judgment, and make it consistent enough to reuse.
+That sequence helps a team decide what matters, organize the work, ship one artifact, support it with evidence or technical judgment, package it for stakeholders, and make it consistent enough to reuse.

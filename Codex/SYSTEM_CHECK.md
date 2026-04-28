@@ -17,6 +17,8 @@ Codex/
 │   ├── README.md
 │   ├── cloud/
 │   ├── deepresearch/
+│   ├── export-pptx/
+│   ├── export-website/
 │   ├── now/
 │   ├── oracle-design-system/
 │   ├── pipeline/
@@ -37,6 +39,8 @@ Codex/
 |---|---|---|---|
 | `cloud` | Published in `Codex/skills/cloud` | High | Keep public. Strong shared skill for OCI, multi-cloud architecture, migration, and FinOps work. |
 | `deepresearch` | Published in `Codex/skills/deepresearch` | High | Keep public. Useful for rigorous, source-backed research briefs. |
+| `export-website` | Published in `Codex/skills/export-website` | High | Keep public. Useful for turning information into shareable stakeholder webpages. |
+| `export-pptx` | Published in `Codex/skills/export-pptx` | High | Keep public. Useful for turning information into concise PPTX decision decks. |
 | `pipeline` | Published in `Codex/skills/pipeline` | High | Keep public. Useful for daily work organization and flow review. |
 | `now` | Published in `Codex/skills/now` | High | Keep public sanitized version. Keep private local variants separate. |
 | `vibe-work` | Published in `Codex/skills/vibe-work` | High | Keep public sanitized version. Useful for focused work sessions. |
@@ -47,7 +51,7 @@ Codex/
 | Area | Public decision | Reason |
 |---|---|---|
 | Advanced execution modes | Keep internal only. Do not list as public candidates. | These should be worked privately before any future public decision. |
-| Communication packaging experiments | Removed from public repo. | These flows are not part of the current public sharing plan. |
+| Internal communication packaging experiments | Keep internal only. | Public export skills should stay generic as `export-website` and `export-pptx`. |
 | Personal inbox workflows | Keep internal only. | These depend on private routing, named work/life lanes, and triage assumptions. |
 
 ## Validation Findings
@@ -58,7 +62,7 @@ Current public skills should be validated before each release with:
 python3 skills-lab/scripts/validate_skill.py skills/<skill-name>
 ```
 
-There are no validation items for internal-only modes or removed communication packaging experiments because they are no longer part of the public repo.
+There are no validation items for internal-only modes because they are not part of the public repo.
 
 ## Privacy Findings
 
@@ -66,9 +70,9 @@ Public skills must not contain private emails, tokens, local paths, internal-onl
 
 Current privacy posture:
 
-- `cloud`, `deepresearch`, `pipeline`, `vibe-work`, and `oracle-design-system` are intended as generic public skills.
+- `cloud`, `deepresearch`, `export-website`, `export-pptx`, `pipeline`, `vibe-work`, and `oracle-design-system` are intended as generic public skills.
 - `now` is public only in sanitized form. Any local version with private knowledgebase assumptions should remain internal.
-- Advanced execution modes, personal inbox workflows, and retired communication packaging experiments should stay out of the public repo.
+- Advanced execution modes and personal inbox workflows should stay out of the public repo.
 
 ## Recommended Public Skill Categories
 
@@ -79,7 +83,7 @@ Organize shared skills by daily-work outcomes:
 | Cloud & Architecture | Better technical and commercial cloud decisions | `cloud` |
 | Research & Intelligence | Better briefs, market scans, evidence, and citations | `deepresearch` |
 | Focus & Execution | Better prioritization, flow, shipping, and completion | `now`, `pipeline`, `vibe-work` |
-| Communication & Alignment | Better design consistency for shared artifacts | `oracle-design-system` |
+| Communication & Alignment | Better stakeholder pages, PPTX decks, and design consistency for shared artifacts | `export-website`, `export-pptx`, `oracle-design-system` |
 
 ## Recommended Public README Organization
 
@@ -98,6 +102,8 @@ Focus & Execution
 - vibe-work
 
 Communication & Alignment
+- export-website
+- export-pptx
 - oracle-design-system
 ```
 
@@ -126,9 +132,11 @@ Keep these skills public:
 
 1. `cloud`
 2. `deepresearch`
-3. `pipeline`
-4. `now`
-5. `vibe-work`
-6. `oracle-design-system`
+3. `export-website`
+4. `export-pptx`
+5. `pipeline`
+6. `now`
+7. `vibe-work`
+8. `oracle-design-system`
 
 Keep internal-only modes and personal workflows out of this public inventory unless a future review explicitly approves a generic public version.
