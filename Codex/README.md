@@ -45,8 +45,7 @@ The public `skills/` folder is for skills that help people work better every day
 - Create useful deliverables with less friction.
 
 Personal operating-system skills should stay private unless they are rewritten generically and pass a privacy review.
-
-Personal operating-system skills should stay private unless they are rewritten generically and pass a privacy review. The vibe is generous, but the privacy bar stays high.
+The vibe is generous, but the privacy bar stays high.
 
 See `SYSTEM_CHECK.md` for the current inventory and shareability assessment.
 
