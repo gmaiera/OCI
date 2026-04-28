@@ -38,6 +38,7 @@ Then start a new Codex thread so the skill metadata can be loaded.
 |---|---|
 | [`idea-export-website`](idea-export-website) | Turn an idea into a shareable stakeholder webpage with a clear message, proof, and call to action. |
 | [`idea-export-ppt`](idea-export-ppt) | Turn an idea into a concise PowerPoint deck with a storyline, proof, and decision slide. |
+| [`oracle-design-system`](oracle-design-system) | Apply Oracle Redwood-inspired enterprise design to webpages, apps, dashboards, decks, and stakeholder artifacts. |
 
 Skills are added here only after they pass the local workflow in `../skills-lab` and a privacy review.
 
@@ -50,6 +51,16 @@ Future shared skills should be organized around daily-work outcomes:
 | Cloud & Architecture | Better technical and commercial cloud decisions. |
 | Research & Intelligence | Better briefs, source-backed research, and opportunity scans. |
 | Focus & Execution | Better work sessions, autonomy, and shipped outcomes. |
-| Communication & Alignment | Better stakeholder pages, proposals, and calls to action. |
+| Communication & Alignment | Better stakeholder pages, decks, proposals, design consistency, and calls to action. |
 
 Personal inbox, priority, and life-operating-system skills should stay private unless rewritten as generic, configurable public versions.
+
+## Suggested Workflow
+
+Use the skills as a performance stack:
+
+```text
+now -> pipeline -> vibe-work -> deepresearch/cloud -> idea-export-website/idea-export-ppt -> oracle-design-system
+```
+
+That sequence helps a team decide what matters, organize the work, ship one artifact, support it with evidence or technical judgment, package it for stakeholders, and make it consistent enough to reuse.

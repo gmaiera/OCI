@@ -46,6 +46,8 @@ Personal operating-system skills should stay private unless they are rewritten g
 
 See `SYSTEM_CHECK.md` for the current inventory, shareability assessment, and recommended next skills to publish.
 
+See `WORKFLOW.md` for how these skills combine into an organization-wide performance improvement workflow.
+
 ## Normal Workflow
 
 1. Create or edit a skill in `skills-lab/sandbox/<skill-name>`.

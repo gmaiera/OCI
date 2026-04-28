@@ -1,0 +1,5 @@
+interface:
+  display_name: "Oracle Design System"
+  short_description: "Apply Oracle Redwood-inspired enterprise design."
+  default_prompt: "Use $oracle-design-system to make this artifact feel Oracle-aligned, enterprise-ready, clear, accessible, and consistent."
+

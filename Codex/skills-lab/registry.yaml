@@ -35,3 +35,8 @@ skills:
   status: github-ready
   shared_path: skills/idea-export-ppt
   github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/idea-export-ppt
+
+- name: oracle-design-system
+  status: github-ready
+  shared_path: skills/oracle-design-system
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/oracle-design-system
