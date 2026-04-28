@@ -27,10 +27,24 @@ skills-lab/sandbox
 The local runtime install location is:
 
 ```text
-/Users/gmaiera/.codex/skills
+~/.codex/skills
 ```
 
 That folder is what Codex actually loads. The lab is where skills are designed, validated, promoted, and prepared for sharing.
+
+## Public Sharing Philosophy
+
+The public `skills/` folder is for skills that help people work better every day:
+
+- Make better decisions.
+- Do better research.
+- Ship focused work.
+- Communicate ideas clearly.
+- Create useful deliverables with less friction.
+
+Personal operating-system skills should stay private unless they are rewritten generically and pass a privacy review.
+
+See `SYSTEM_CHECK.md` for the current inventory, shareability assessment, and recommended next skills to publish.
 
 ## Normal Workflow
 
@@ -70,7 +84,7 @@ That folder is what Codex actually loads. The lab is where skills are designed, 
 
 ## Production Rule
 
-Do not edit `/Users/gmaiera/.codex/skills/<skill-name>` directly. Make changes in `skills-lab/sandbox`, test them locally, then promote again.
+Do not edit `~/.codex/skills/<skill-name>` directly. Make changes in `skills-lab/sandbox`, test them locally, then promote again.
 
 ## GitHub Sharing Rule
 
