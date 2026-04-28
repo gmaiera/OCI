@@ -36,7 +36,8 @@ Then start a new Codex thread so the skill metadata can be loaded.
 
 | Skill | What it is for |
 |---|---|
-| [`idea-export`](idea-export) | Turn an idea into a shareable stakeholder webpage with a clear message, proof, and call to action. |
+| [`idea-export-website`](idea-export-website) | Turn an idea into a shareable stakeholder webpage with a clear message, proof, and call to action. |
+| [`idea-export-ppt`](idea-export-ppt) | Turn an idea into a concise PowerPoint deck with a storyline, proof, and decision slide. |
 
 Skills are added here only after they pass the local workflow in `../skills-lab` and a privacy review.
 

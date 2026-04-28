@@ -34,8 +34,10 @@ Codex/
 | `pipeline` | New public skill | Published in `Codex/skills/pipeline` | High | Public skill implemented for daily work organization. |
 | `vibe-work` | Valid | Published in `Codex/skills/vibe-work` | High | Public sanitized version implemented. |
 | `ludicrous-mode` | Valid, one warning | Not public | Medium | Fix missing reference link, generalize approval language, then publish as an advanced execution mode. |
-| `idea-export-v2` | Valid | Not public | Low | Do not publish. User chose V1 `idea-export` without V2. |
-| `idea-export` | Valid | Published in `Codex/skills/idea-export` | High | Public sanitized V1 implemented. |
+| `idea-export-v2` | Valid | Not public | Low | Do not publish. Superseded publicly by explicit website and PPT variants. |
+| `idea-export-website` | Valid | Published in `Codex/skills/idea-export-website` | High | Website output variant implemented. |
+| `idea-export-ppt` | Valid | Published in `Codex/skills/idea-export-ppt` | High | PowerPoint output variant implemented. |
+| `idea-export` | Deprecated | Not public | Low | Replaced by explicit website and PPT variants. |
 | `inbox` | Valid | Not public | Low | Keep private. It contains personal inbox routing, named work/life lanes, and private operating assumptions. |
 | `now` | Valid | Published in `Codex/skills/now` | High | Public sanitized version implemented. Keep private local variant separate. |
 
@@ -74,7 +76,7 @@ Organize shared skills by daily-work outcomes:
 | Cloud & Architecture | Better technical and commercial cloud decisions | `cloud` |
 | Research & Intelligence | Better briefs, market scans, evidence, and citations | `deepresearch` |
 | Focus & Execution | Better shipping, autonomy, and completion | `vibe-work`, `ludicrous-mode` |
-| Communication & Alignment | Better stakeholder pages, proposals, and calls to action | `idea-export` |
+| Communication & Alignment | Better stakeholder pages, decks, proposals, and calls to action | `idea-export-website`, `idea-export-ppt` |
 | Personal Operating Systems | Inbox, prioritization, routines, and command centers | keep private unless rewritten generically |
 
 ## Recommended Next Skills To Publish
@@ -121,7 +123,8 @@ Focus & Execution
 - vibe-work
 
 Communication & Alignment
-- idea-export
+- idea-export-website
+- idea-export-ppt
 ```
 
 Each listed skill should include:
@@ -152,6 +155,7 @@ Keep these skills public:
 3. `pipeline`
 4. `now`
 5. `vibe-work`
-6. `idea-export`
+6. `idea-export-website`
+7. `idea-export-ppt`
 
-Do not publish `idea-export-v2` in this repository. Keep it private unless a future decision explicitly revives it.
+Do not publish `idea-export-v2` or the old ambiguous `idea-export` in this repository. Use `idea-export-website` or `idea-export-ppt` so the intended output is clear from the skill name.
