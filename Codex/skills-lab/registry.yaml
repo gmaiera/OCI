@@ -1,0 +1,9 @@
+skills:
+
+# shared 2026-04-28
+- name: cloud
+  status: github-ready
+  shared_path: skills/cloud
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/cloud
+
+

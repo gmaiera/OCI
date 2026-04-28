@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloud"
+  short_description: "Cloud architecture and cost planning"
+  default_prompt: "Use $cloud to design, size, compare, or migrate a cloud architecture across OCI, AWS, Azure, and GCP."
