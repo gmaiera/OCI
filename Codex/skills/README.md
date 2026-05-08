@@ -12,6 +12,20 @@ Each skill is a self-contained folder. To use one, copy the skill folder into yo
 
 Then start a new Codex thread so the skill metadata can be loaded. Small setup, big vibe.
 
+## Install The Full Collection
+
+This folder is now also exposed as the `oci-codex-skills` plugin bundle from the repository root.
+
+Add the marketplace from Codex:
+
+```text
+codex plugin marketplace add gmaiera/OCI --ref main --sparse .agents/plugins
+```
+
+Then install `OCI Codex Skills` from the plugin marketplace and restart Codex. That installs every skill in this folder as one collection.
+
+If you are opening this repository directly in Codex, the same folders are also available through the repo-local `.agents/skills` directory.
+
 ## Available Skills
 
 ### Cloud & Architecture

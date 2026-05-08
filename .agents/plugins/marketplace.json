@@ -1,0 +1,21 @@
+{
+  "name": "gmaiera-oci",
+  "interface": {
+    "displayName": "Gustavo Maiera OCI"
+  },
+  "plugins": [
+    {
+      "name": "oci-codex-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gmaiera/OCI.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

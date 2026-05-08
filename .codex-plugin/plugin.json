@@ -1,0 +1,40 @@
+{
+  "name": "oci-codex-skills",
+  "version": "0.1.0",
+  "description": "A public bundle of reusable Codex skills for research, cloud architecture, focused execution, stakeholder artifacts, pipelines, and Oracle-style design.",
+  "author": {
+    "name": "Gustavo Maiera",
+    "url": "https://github.com/gmaiera"
+  },
+  "homepage": "https://github.com/gmaiera/OCI/tree/main/Codex/skills",
+  "repository": "https://github.com/gmaiera/OCI",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "research",
+    "cloud",
+    "productivity",
+    "oracle"
+  ],
+  "skills": "./Codex/skills/",
+  "interface": {
+    "displayName": "OCI Codex Skills",
+    "shortDescription": "Reusable Codex workflows from the public OCI repo.",
+    "longDescription": "Install the public Codex skills maintained in gmaiera/OCI, including research, cloud architecture, focused work, stakeholder export, pipeline, and Oracle design workflows.",
+    "developerName": "Gustavo Maiera",
+    "category": "Productivity",
+    "capabilities": [
+      "Workflow",
+      "Research",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/gmaiera/OCI/tree/main/Codex/skills",
+    "defaultPrompt": [
+      "Use the OCI Codex skills to organize this work.",
+      "Start a focused work session with the shared skills.",
+      "Turn this idea into a polished stakeholder artifact."
+    ],
+    "brandColor": "#C74634"
+  }
+}
