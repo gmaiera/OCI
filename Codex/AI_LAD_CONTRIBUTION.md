@@ -4,13 +4,9 @@ Date: 2026-04-28
 
 ## Target
 
-Oracle AI LAD skills site:
+Oracle AI LAD skills site or repository.
 
-```text
-https://ai-lad.com/skills
-```
-
-The target URL is protected by Oracle IDCS SSO and is not a Git remote. Contribution requires authenticated browser access or the underlying repository clone URL.
+The target is an Oracle-controlled destination. Contribution requires authenticated browser access or the underlying repository clone URL.
 
 ## Contribution Package
 
