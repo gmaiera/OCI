@@ -40,3 +40,9 @@ skills:
   status: github-ready
   shared_path: skills/oracle-design-system
   github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/oracle-design-system
+
+# shared 2026-06-09
+- name: agent-access-ladder
+  status: github-ready
+  shared_path: skills/agent-access-ladder
+  github_target: https://github.com/gmaiera/OCI/tree/main/Codex/skills/agent-access-ladder
