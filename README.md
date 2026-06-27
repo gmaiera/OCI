@@ -1,29 +1,66 @@
 # OCI
 
-A living collection of OCI ideas, skills, workflows, and experiments I am excited to share because they help turn important work into something others can use.
+OCI helps people turn scattered work into decisions, research, cloud strategy, focused execution, and polished stakeholder artifacts.
 
-## Public Codex Skills
+This repository is a public toolkit for reusable AI-assisted work rituals. It is organized around outcomes: what you want the agent to help you do, and which skill or guide gets you there.
 
-The public Codex skills are in:
+## Start Here
+
+1. **Install the Codex plugin** when you want the full skill collection:
+
+   ```text
+   codex plugin marketplace add gmaiera/OCI --ref main --sparse .agents/plugins
+   ```
+
+   Then install `OCI Codex Skills` from the Codex plugin marketplace and restart Codex.
+
+2. **Browse by outcome** when you want to understand the toolkit:
+
+   - [Focus](skills/focus/) for priority clarity, visible work, and focused sessions.
+   - [Research](skills/research/) for source-backed briefs.
+   - [Cloud](skills/cloud/) for architecture, migration, FinOps, and OCI-first technical decisions.
+   - [Artifacts](skills/artifacts/) for webpages, decks, and Oracle-style polish.
+
+3. **Read Agent Operations guides** when you want reusable agent-operation practices:
+
+   - [Agent history retention](guides/agent-history-retention.md) explains how to keep local agent history useful without publishing raw transcripts.
+   - [Contributing](contributing/) explains how to keep public contributions safe and reviewable.
+
+## This Does That
+
+| If you want to... | Use this | What it does |
+|---|---|---|
+| Choose what matters right now | [Focus](skills/focus/) | Turns noise into priorities, pipeline visibility, and one useful shipped thing. |
+| Understand a topic deeply | [Research](skills/research/) | Produces current, cited, decision-ready research briefs. |
+| Make cloud decisions easier | [Cloud](skills/cloud/) | Frames architecture, OCI, migration, FinOps, and provider tradeoffs clearly. |
+| Package an idea for others | [Artifacts](skills/artifacts/) | Turns ideas into shareable pages, PPTX decks, and enterprise-ready design. |
+| Improve agent practice safely | [Agent Operations](guides/) | Documents local-first agent history, privacy, provenance, and reusable patterns. |
+| Build or improve a skill | [Lab](lab/) | Explains the sandbox-to-release workflow for Codex skills. |
+
+## Runtime Paths
+
+The visitor-friendly navigation lives in `skills/`, `guides/`, `lab/`, and `contributing/`.
+
+The Codex plugin still loads skills from:
 
 ```text
 Codex/skills
 ```
 
-The repo is also published as a Codex plugin bundle named `oci-codex-skills`, so the full collection can be installed together instead of selecting one skill folder at a time.
-
-To add the marketplace from Codex:
-
-```text
-codex plugin marketplace add gmaiera/OCI --ref main --sparse .agents/plugins
-```
-
-Then install `OCI Codex Skills` from the plugin marketplace and restart Codex so the skills are loaded in new threads.
-
-For repo-local use, the same skills are exposed through:
+For repo-local agent use, the same skill folders are exposed through:
 
 ```text
 .agents/skills
 ```
 
-That directory points back to the maintained source folders under `Codex/skills`.
+Those compatibility paths stay stable so existing plugin installs and local symlinks keep working.
+
+## Public Safety
+
+This repository is public. Keep contributions generic and reusable. Do not publish credentials, private transcripts, internal strategy, private client or partner details, local runtime state, or unapproved drafts.
+
+Before contributing, review:
+
+- [Security policy](SECURITY.md)
+- [Publication checklist](PUBLICATION_CHECKLIST.md)
+- [Contribution guide](contributing/)
