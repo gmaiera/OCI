@@ -11,7 +11,7 @@ For visitor-friendly navigation, use [`../../skills`](../../skills). This folder
 | Focus | [`now`](now) | Chooses what matters right now. |
 | Focus | [`pipeline`](pipeline) | Turns messy work into visible stages, priorities, owners, blockers, and next actions. |
 | Focus | [`vibe-work`](vibe-work) | Runs a focused session to ship one useful thing. |
-| Research | [`deepresearch`](deepresearch) | Produces current, cited, decision-ready research briefs. |
+| Research | [`deepresearch`](deepresearch) | Produces current, cited, decision-ready research and quantified business-case briefs. |
 | Cloud | [`cloud`](cloud) | Frames cloud architecture, migration, FinOps, and OCI-first technical decisions. |
 | Artifacts | [`export-website`](export-website) | Turns an idea into a shareable stakeholder webpage. |
 | Artifacts | [`export-pptx`](export-pptx) | Turns an idea into a concise decision deck. |
