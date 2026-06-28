@@ -10,6 +10,7 @@ Slint is useful here because it gives agents a small declarative UI surface that
 |---|---|
 | [`oci-design-smoke.slint`](oci-design-smoke.slint) | Minimal native UI sample for visual smoke testing. |
 | [`smoke-test.sh`](smoke-test.sh) | Downloads official Slint release tools into a temporary directory, checks versions, and opens the sample with `slint-viewer`. |
+| [`render-visual-learning-cards.mjs`](render-visual-learning-cards.mjs) | Renders the Visual Learning Lab research cards as share-ready PNG files through `slint-viewer --screenshot`. |
 
 ## Quick Test
 
@@ -43,3 +44,20 @@ The first OCI test should use official release binaries. A full upstream build i
 4. Follow the upstream build instructions for the target language and platform.
 
 Do not commit downloaded binaries, generated build directories, or local tool caches.
+
+## Render Share Cards
+
+After running the smoke test once, render the Visual Learning Lab share images:
+
+```sh
+node design/slint/render-visual-learning-cards.mjs
+```
+
+By default the PNGs are exported to:
+
+```text
+~/Desktop/oci-design-visual-learning-share-images-2026-06-28
+```
+
+Set `OCI_DESIGN_EXPORT_DIR` to write them somewhere else, or `OCI_SLINT_VIEWER`
+to use a specific `slint-viewer` binary.
