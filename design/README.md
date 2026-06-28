@@ -37,6 +37,7 @@ For Claude, Cursor, Copilot, and other agents, use this folder as the public des
 ## Test Fixtures
 
 - [Visual Learning Lab social scheduler test](tests/visual-learning-lab-social-scheduler-test-2026-06-28.md) converts five public-safe learning artifacts into X.com, LinkedIn, and Instagram scheduling drafts.
+- [Visual Learning Lab social scheduler run](tests/visual-learning-lab-social-scheduler-run-2026-06-28.md) records the live scheduling attempt and manual queue fallback.
 
 ## Public Safety
 
