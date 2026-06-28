@@ -11,7 +11,8 @@ The folders here are a public navigation layer. The Codex plugin runtime source 
 | [Focus](focus/) | `now`, `pipeline`, `vibe-work` | Choose what matters, organize the work, and ship one useful thing. |
 | [Research](research/) | `deepresearch` | Turn uncertainty into current, cited, decision-ready briefs. |
 | [Cloud](cloud/) | `cloud` | Make cloud architecture, migration, FinOps, and OCI decisions easier to explain. |
-| [Artifacts](artifacts/) | `export-website`, `export-pptx`, `oracle-design-system` | Package ideas into pages, decks, and enterprise-ready visuals. |
+| [Design](../design/) | `oracle-design-system` plus Slint experiments | Improve visual polish, design systems, native UI prototypes, and artifact QA. |
+| [Artifacts](artifacts/) | `export-website`, `export-pptx` | Package ideas into pages and decks. |
 
 ## Install
 

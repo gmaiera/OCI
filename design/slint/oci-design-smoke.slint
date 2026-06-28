@@ -1,0 +1,81 @@
+export component OciDesignSmoke inherits Window {
+    title: "OCI Design Smoke";
+    width: 720px;
+    height: 420px;
+    background: #f8f6f3;
+
+    Rectangle {
+        x: 28px;
+        y: 28px;
+        width: parent.width - 56px;
+        height: parent.height - 56px;
+        background: #ffffff;
+        border-color: #d8d2ca;
+        border-width: 1px;
+        border-radius: 8px;
+
+        Text {
+            x: 32px;
+            y: 28px;
+            text: "OCI Design";
+            color: #312d2a;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        Text {
+            x: 32px;
+            y: 82px;
+            width: parent.width - 64px;
+            text: "A public design hub for agent-assisted artifacts, native UI experiments, and visual QA.";
+            color: #5f5a54;
+            font-size: 18px;
+            wrap: word-wrap;
+        }
+
+        Rectangle {
+            x: 32px;
+            y: 160px;
+            width: parent.width - 64px;
+            height: 72px;
+            background: #fbf9f7;
+            border-color: #e4ded7;
+            border-width: 1px;
+            border-radius: 6px;
+
+            Text {
+                x: 18px;
+                y: 14px;
+                text: "Slint smoke test";
+                color: #312d2a;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            Text {
+                x: 18px;
+                y: 42px;
+                text: "If this renders, the local viewer can open OCI design prototypes.";
+                color: #6f6861;
+                font-size: 14px;
+            }
+        }
+
+        Rectangle {
+            x: 32px;
+            y: parent.height - 86px;
+            width: 156px;
+            height: 42px;
+            background: #c74634;
+            border-radius: 6px;
+
+            Text {
+                x: 18px;
+                y: 11px;
+                text: "Ready to test";
+                color: #ffffff;
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 # OCI
 
-OCI helps people turn scattered work into decisions, research, cloud strategy, focused execution, and polished stakeholder artifacts.
+OCI helps people turn scattered work into decisions, research, cloud strategy, focused execution, and visually polished stakeholder artifacts.
 
 This repository is a public toolkit for reusable AI-assisted work rituals. It is organized around outcomes: what you want the agent to help you do, and which skill or guide gets you there.
 
@@ -19,7 +19,8 @@ This repository is a public toolkit for reusable AI-assisted work rituals. It is
    - [Focus](skills/focus/) for priority clarity, visible work, and focused sessions.
    - [Research](skills/research/) for source-backed briefs.
    - [Cloud](skills/cloud/) for architecture, migration, FinOps, and OCI-first technical decisions.
-   - [Artifacts](skills/artifacts/) for webpages, decks, and Oracle-style polish.
+   - [Design](design/) for visual polish, design systems, Slint experiments, artifact QA, and cross-agent instructions.
+   - [Artifacts](skills/artifacts/) for webpage and deck export skills.
 
 3. **Read Agent Operations guides** when you want reusable agent-operation practices:
 
@@ -33,13 +34,14 @@ This repository is a public toolkit for reusable AI-assisted work rituals. It is
 | Choose what matters right now | [Focus](skills/focus/) | Turns noise into priorities, pipeline visibility, and one useful shipped thing. |
 | Understand a topic deeply | [Research](skills/research/) | Produces current, cited, decision-ready research briefs. |
 | Make cloud decisions easier | [Cloud](skills/cloud/) | Frames architecture, OCI, migration, FinOps, and provider tradeoffs clearly. |
-| Package an idea for others | [Artifacts](skills/artifacts/) | Turns ideas into shareable pages, PPTX decks, and enterprise-ready design. |
+| Make agent-assisted work more visual | [Design](design/) | Centralizes artifact polish, design-system guidance, Slint tests, and visual QA. |
+| Package an idea for others | [Artifacts](skills/artifacts/) | Turns ideas into shareable pages and PPTX decks. |
 | Improve agent practice safely | [Agent Operations](guides/) | Documents local-first agent history, privacy, provenance, and reusable patterns. |
 | Build or improve a skill | [Lab](lab/) | Explains the sandbox-to-release workflow for Codex skills. |
 
 ## Runtime Paths
 
-The visitor-friendly navigation lives in `skills/`, `guides/`, `lab/`, and `contributing/`.
+The visitor-friendly navigation lives in `design/`, `skills/`, `guides/`, `lab/`, and `contributing/`.
 
 The Codex plugin still loads skills from:
 
