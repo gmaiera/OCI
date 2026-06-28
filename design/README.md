@@ -34,6 +34,10 @@ For Claude, Cursor, Copilot, and other agents, use this folder as the public des
 - **Native UI experiments:** Slint samples and smoke tests for small interface prototypes.
 - **Visual QA:** browser screenshots, rendered previews, link checks, text-fit checks, and public-safety review before publication.
 
+## Test Fixtures
+
+- [Visual Learning Lab social scheduler test](tests/visual-learning-lab-social-scheduler-test-2026-06-28.md) converts five public-safe learning artifacts into X.com, LinkedIn, and Instagram scheduling drafts.
+
 ## Public Safety
 
 This is a public repository. Keep design examples sanitized, generic, and implementation-focused. Do not include private source material, local screenshots that reveal sensitive state, internal URLs, tokens, runtime logs, or machine-specific tool outputs.
