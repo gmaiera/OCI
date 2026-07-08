@@ -1,5 +1,4 @@
 interface:
   display_name: "DeepResearch"
-  short_description: "Run rigorous current research briefs."
-  default_prompt: "Use $deepresearch to research this topic exhaustively and produce a concise, cited strategic brief."
-
+  short_description: "Run rigorous, source-backed research briefs."
+  default_prompt: "Use $deepresearch to produce a current, rigorous, source-backed brief that clearly separates verified facts, uncertainty, and recommendations."

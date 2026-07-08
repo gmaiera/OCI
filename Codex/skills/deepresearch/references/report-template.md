@@ -1,93 +1,93 @@
 # DeepResearch Reference
 
-Use this file when a reusable scaffold helps the research stay rigorous and concise.
+Read this file for a Full report, disputed evidence, comparisons, or a reusable evidence ledger. Adapt the modules to the user's requested format; do not force every section.
 
-## Search Matrix
+## Evidence Ledger
 
-```text
-Topic:
-Type: Person | Company | Research/Subject | Other
-Time sensitivity:
-Primary sources needed:
-Likely source classes:
+Repeat rows until every research sub-question is answered, unresolved, or out of scope.
 
-Sub-question 1:
-Search strategy:
-Best source found:
-Claim supported:
-Confidence:
+| Sub-question | Material claim | Source of record | Independent corroboration | Contradiction | Source date/class | Incentives or limitations | Evidence strength |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
 
-Sub-question 2:
-Search strategy:
-Best source found:
-Claim supported:
-Confidence:
-```
+Record direct links or environment-native citations in the source cells. Treat syndicated copies and reports derived from the same underlying dataset as one evidence chain.
 
-## Source Quality Ladder
+## Claim-Relative Source Assessment
 
-1. Primary technical source: paper, official docs, benchmark report, standards body, code repo, filing.
-2. Primary business source: company announcement, investor relations, regulator, court record, patent database.
-3. Independent reputable reporting: Reuters, AP, Bloomberg, Financial Times, The Information, TechCrunch for startup coverage, domain-specific trade publications.
-4. Expert commentary: conference talks, analyst notes, well-known researchers, maintainers, practitioners.
-5. Social or community signals: X, LinkedIn, Reddit, Hacker News, GitHub discussions. Use as weak signal unless confirmed.
-6. SEO summaries, unattributed blogs, copied content. Avoid unless no better source exists.
+| Source class | What it can establish | Typical limitation |
+|---|---|---|
+| Official documentation, filing, regulator, standard, code, court record | Exact published fact, rule, behavior, or recorded event | May not establish effectiveness, adoption, or comparative superiority |
+| Company announcement or investor material | What the organization claims, offers, or announced | Self-interested; independently corroborate performance, customers, market position, and forecasts |
+| Peer-reviewed research | Methods and findings within the studied conditions | May be narrow, old, non-replicated, or inapplicable operationally |
+| Preprint or vendor benchmark | Early technical evidence | Not peer reviewed or independently designed; label methodology and sponsor |
+| Independent reputable reporting | Corroboration, context, stakeholder perspectives | May rely on anonymous or shared upstream sources |
+| Expert commentary | Interpretation and domain context | Opinion; disclose affiliation and incentives |
+| Social/community evidence | Leads, sentiment, operational weak signals | Not verification unless confirmed elsewhere |
+| Patent | Filing and claims | Not proof of implementation, validity, commercial use, or product intent |
 
-## Comparison Table Options
+## Evidence Strength Labels
 
-For companies:
+Apply the first matching rule to the exact claim, then stop:
 
-```markdown
-| Aspect | Topic Company | Competitor A | Competitor B | Takeaway |
-|---|---|---|---|---|
-| Product focus | | | | |
-| Customers | | | | |
-| Funding/financials | | | | |
-| Differentiation | | | | |
-| Risks | | | | |
-```
+1. **Contested**: Two or more credible evidence chains materially conflict on the exact claim. State the disagreement and what would resolve it.
+2. **Unknown**: No source directly supports the exact claim after a proportionate search. Identify the missing evidence or follow-up.
+3. **Verified**: Direct source-of-record evidence establishes the exact bounded claim and, for a consequential, disputed, adverse, performance, or self-interested claim, appropriate independent corroboration also supports it. A source is a source of record for its own existence and contents, not for the truth of substantive claims it merely asserts.
+4. **Weak signal**: One or more sources directly support the exact substantive claim, but every supporting evidence chain is preliminary, unreviewed, sponsor-controlled, social/community, or methodologically insufficient.
+5. **Supported**: At least one credible direct evidence chain is stronger than a Weak signal, no credible evidence materially conflicts, and the claim does not meet the Verified rule.
 
-For research subjects:
+Classify source existence separately from source content. For example, a preprint's existence can be **Verified** while its reported effect remains a **Weak signal** and an unevidenced commercial implementation remains **Unknown**.
+
+For a proof-or-implementation question involving preliminary research or patent evidence, report three separately labeled claims: source existence or filing (**Verified** when the direct source establishes it), the reported result (**Weak signal** while preliminary or methodologically insufficient), and implementation or commercial use (**Unknown** without direct product or deployment evidence).
+
+## Full-Report Scaffold
 
 ```markdown
-| Aspect | Topic Approach | Alternative | Takeaway |
+# [Decision or topic]
+
+**Research current as of:** [date]
+
+## Conclusion
+[Answer and decision implication in 2-4 sentences.]
+
+## Key findings
+- [Material claim with adjacent citation.]
+
+## Evidence, uncertainty, and contradictions
+- **Verified:** ...
+- **Supported / Contested / Weak signal / Unknown:** ...
+
+## Recommendation
+[Action, rationale, first step, time horizon, and confidence. Include only when the request is decision-oriented.]
+```
+
+Conditional modules: scope and method, timeline, comparison, risks, opportunities, regional analysis, implementation plan, or selected sources.
+
+## Comparison Module
+
+```markdown
+| Aspect | Option A | Option B | Evidence-backed takeaway |
 |---|---|---|---|
-| Core idea | | | |
-| Performance evidence | | | |
-| Maturity | | | |
-| Deployment complexity | | | |
-| Open problems | | | |
+| | | | |
 ```
 
-For people:
+Cite factual cells or the takeaway immediately. Compare only dimensions relevant to the decision.
 
-```markdown
-| Aspect | Person | Peer/Comparable | Takeaway |
-|---|---|---|---|
-| Current role | | | |
-| Major contributions | | | |
-| Network/affiliations | | | |
-| Public thesis | | | |
-| Relevance to the user | | | |
-```
-
-## Opportunity Ranking Format
+## Opportunity Module
 
 ```markdown
 1. **[Opportunity]**
-   Rationale:
-   Who could act:
-   First step:
-   Time horizon:
-   Confidence:
+   - Why it matters:
+   - Who can act:
+   - First step:
+   - Time horizon:
+   - Evidence strength:
 ```
 
-## Data Gap Language
+## Research-As-Of And Data-Gap Language
 
-Use clear uncertainty labels:
+Use only the evidence-strength labels defined above. Add these phrases after a label when useful:
 
-- **Verified**: supported by primary or multiple reputable sources.
-- **Likely**: supported by reputable secondary sources but missing primary confirmation.
-- **Weak signal**: social/community evidence or single-source claim.
-- **Unknown**: searched but not found; recommend follow-up.
-
+- **Current as of [date]**: defines the evidence cutoff, not a guarantee that no later event exists.
+- **Supported — independent corroboration missing**: credible non-preliminary evidence supports the claim and is stronger than a Weak signal, but independent confirmation needed for Verified status was not found.
+- **Searched but not found**: name the source classes and date range checked when the gap matters.
+- **Could change the conclusion**: identify the exact missing fact, threshold, or event.
